@@ -1,0 +1,22 @@
+﻿@page
+@model Module3Lab.Pages.IndexModel
+@{
+    ViewData["Title"] = "Taco & Burrito Decision Maker";
+}
+
+<h1>🌮 Taco & Burrito Decision Maker 🌯</h1>
+
+<form method="post">
+    <label>How hungry are you? (1-10)</label>
+    <input type="number" name="hungerLevel" min="1" max="10" required />
+    <button type="submit">Get My Recommendation</button>
+</form>
+
+@if (Model.ShowResults)
+{
+    <h2>Your Results:</h2>
+    <p><strong>Hunger Level:</strong> @Model.HungerLevel</p>
+    <p>@Model.HungerMessage</p>
+    <p><strong>I recommend:</strong> @Model.Recommendation</p>
+    <p><strong>@Model.EncouragementMessage</strong></p>
+}
