@@ -39,9 +39,9 @@ namespace Module3Lab.Pages
             }
             else if (HungerLevel >= somewhatHungryThreshold)
             {
-                // Runs when HungerLevel is 5, 6, or 7
-                // We already know it's less than 8 here, or the first
-                // condition above would have matched instead.
+                // Runs when HungerLevel is submitted
+                // We already know it's less than 10 here, or the first
+                // condition above would have to match each other.
                 HungerMessage = "You're moderately hungry. Go for a plate of tacos.";
             }
             else
