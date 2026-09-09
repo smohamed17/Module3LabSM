@@ -48,10 +48,7 @@ namespace Module3Lab.Pages
                 HungerMessage = "You're not that hungry. Opt for a small burrito.";
             }
 
-            // TERNARY OPERATOR
-            // This is a shorthand for a simple if else that only sets one
-            // value. Read it as: if HungerLevel is 5 or more, Recommendation
-            // becomes "Tacos". Otherwise it becomes "Burrito".
+            // we are using Tenary Messaging to convey the recommendation. 
             Recommendation = (HungerLevel >= somewhatHungryThreshold) ? "Tacos" : "Burrito";
 
             // SWITCH STATEMENT
