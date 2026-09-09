@@ -15,8 +15,8 @@ namespace Module3Lab.Pages
 
         public void OnGet()
         {
-            // This runs when the page first loads, before the user has
-            // entered a hunger level. Nothing to do yet.
+            // using the void OnGet to publicly figure out which belongs to which. 
+            // ex: like string belongs to HungerMessage or Recommendation. 
         }
 
         public void OnPost(int hungerLevel)
@@ -24,17 +24,12 @@ namespace Module3Lab.Pages
             HungerLevel = hungerLevel;
             ShowResults = true;
 
-            // We use two named thresholds instead of hardcoding
-            // 8 and 5 directly in the if statement below. This makes the
-            // conditions easier to read, and if you want to change what
-            // counts as very hungry, you only have to change it in one place.
+            // using the value example of the theshold and results. 
             const int veryHungryThreshold = 8;
             const int somewhatHungryThreshold = 5;
 
-            // IF ELSE IF ELSE STATEMENT
-            // C# checks each condition in order from top to bottom and
-            // runs the first block that matches. Once one matches, it
-            // skips the rest, even if a later condition would also be true.
+           // using the if-elseif-else statement to figure out the hunger level 
+           // and applying the proper message. 
             if (HungerLevel >= veryHungryThreshold)
             {
                 // Runs when HungerLevel is 8, 9, or 10
