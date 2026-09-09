@@ -32,7 +32,7 @@ namespace Module3Lab.Pages
            // and applying the proper message. 
             if (HungerLevel >= veryHungryThreshold)
             {
-                // Runs when HungerLevel is 8, 9, or 10
+        
                 HungerMessage = "You're super hungry. Order both tacos and burritos.";
             }
             else if (HungerLevel >= somewhatHungryThreshold)
