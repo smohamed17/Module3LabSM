@@ -15,6 +15,7 @@ namespace Module3Lab.Pages
 
         public void OnGet()
         {
+            //this will run during the first process of using the webpage. 
             // using the void OnGet to publicly figure out which belongs to which. 
             // ex: like string belongs to HungerMessage or Recommendation. 
         }
