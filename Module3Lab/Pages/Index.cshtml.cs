@@ -6,7 +6,8 @@ namespace Module3Lab.Pages
     public class IndexModel : PageModel
     {
         // These properties aka variables hold the data that Index.cshtml will display
-        // after the user submits the form.
+        // after the user submits the form. Getting will get the value
+        // and set is setting the value. 
         public int HungerLevel { get; set; }
         public string HungerMessage { get; set; } = string.Empty;
         public string Recommendation { get; set; } = string.Empty;
