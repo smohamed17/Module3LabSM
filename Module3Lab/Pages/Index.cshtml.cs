@@ -53,12 +53,9 @@ namespace Module3Lab.Pages
             // we are using Tenary Messaging to convey the recommendation. 
             Recommendation = (HungerLevel >= somewhatHungryThreshold) ? "Tacos" : "Burrito";
 
-            // SWITCH STATEMENT
+            // Using switch statements to figure things out. 
             // A switch compares HungerLevel against a list of specific
-            // values. Grouping several case labels together, like the 7, 8,
-            // and 9 lines below, means all of those values run the same
-            // block of code. The break statement tells C# to stop checking
-            // once it finds a match.
+            // values. 
             switch (HungerLevel)
             {
                 case 10:
