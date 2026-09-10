@@ -27,8 +27,8 @@ namespace Module3Lab.Pages
             ShowResults = true;
 
             // using the value example of the theshold and results. 
-            const int veryHungryThreshold = 6;
-            const int somewhatHungryThreshold = 2;
+            const int veryHungryThreshold = 9;
+            const int somewhatHungryThreshold = 6;
 
            // using the if-elseif-else statement to figure out the hunger level 
            // and applying the proper message. 
